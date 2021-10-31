@@ -13,12 +13,10 @@ const style= {
 };
 
 export const Card = props => {
-  const { isAdmin } = props;
-
   return (
     <div style={style}>
       <p>山田太郎</p>
-      <EditButton isAdmin={isAdmin} />
+      <EditButton />
     </div>
   );
 };
